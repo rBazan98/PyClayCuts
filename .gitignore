@@ -1,5 +1,7 @@
 __pycache__/
 venv/
+images/
+models/
 *.svg
 *.obj
 *.svg_3d
