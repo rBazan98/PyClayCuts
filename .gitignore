@@ -1,0 +1,6 @@
+__pycache__/
+venv/
+*.svg
+*.obj
+*.svg_3d
+*.ipynb
