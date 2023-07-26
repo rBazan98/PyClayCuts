@@ -8,8 +8,8 @@ def char2svg(char):
     plt.figure(figsize=(4, 4))
     plt.text(0.5, 0.5, char[0], fontsize=200, ha='center', va='center')
     plt.axis('off')
-    path='./images/'+char[0]+'.svg'
-    plt.savefig(path, format='svg', bbox_inches='tight', pad_inches=0)
+    file_path='./images/'+char[0]+'.svg'
+    plt.savefig(file_path, format='svg', bbox_inches='tight', pad_inches=0)
     # plt.show()
 
     return path
